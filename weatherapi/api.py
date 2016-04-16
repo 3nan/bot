@@ -51,7 +51,7 @@ def  api (path, data=None):
         data = urllib.parse.urlencode(data)
         data = data.encode('utf-8')
     # APIキーをヘッダーに付与する
-    headers = {"X-ChatWorkToken": CHATWORKAPPID}
+
 
 
     c = pycurl.Curl()
